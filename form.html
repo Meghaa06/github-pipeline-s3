@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Interest Form</title>
+</head>
+<body>
+  <h1>Student Interest Form</h1>
+  
+  <form action="#" method="post">
+    <!-- Name Field -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <br><br>
+
+    <!-- Department Field -->
+    <label for="department">Department:</label><br>
+    <input type="text" id="department" name="department" placeholder="Enter your department" required>
+    <br><br>
+
+    <!-- Interested Area (Dropdown) -->
+    <label for="interest">Interested Area:</label><br>
+    <select id="interest" name="interest" required>
+      <option value="">-- Select an Option --</option>
+      <option value="cloud">Cloud</option>
+      <option value="fullstack">Full Stack</option>
+      <option value="datascience">Data Science</option>
+      <option value="ai">Artificial Intelligence</option>
+    </select>
+    <br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
